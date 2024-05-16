@@ -1,4 +1,7 @@
 // index.js
+//ugugdlin sang synchronize hiideg script jisheelbel models dotor baigaa file uud buyu
+//husnegtuudin buren buten baidlig hadgalah zorilgotoi
+//data oruulsan tohioldold ajiluulahig horiglono yagaad tgd table ustgaad uusgene
 const sequelize = require('./src/models/sequelize');
 const User = require('./src/models/User'); 
 const Client = require('./src/models/Client');
