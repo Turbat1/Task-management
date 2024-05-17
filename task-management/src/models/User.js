@@ -3,23 +3,25 @@ const { DataTypes } = require('sequelize');
 const sequelize = require('./sequelize');
 
 const User = sequelize.define('User', {
-  UserID: {
+  userid: {
     type: DataTypes.INTEGER,
     primaryKey: true,
     autoIncrement: true
   },
-  Username: {
+  username: {
     type: DataTypes.STRING,
     unique: true
   },
-  Password: DataTypes.STRING,
-  Name: DataTypes.STRING,
-  Email: {
+  password: DataTypes.STRING,
+  name: DataTypes.STRING,
+  email: {
     type: DataTypes.STRING,
     unique: true
   },
-  RoleID: DataTypes.INTEGER,
-  DepartmentID: DataTypes.INTEGER
+  roleID: DataTypes.INTEGER,
+  departmentID: DataTypes.INTEGER
+}, {
+  tableName: 'User', // Specify the table name explicitly
 });
 
-module.exports = User;
+module.exports = { User };

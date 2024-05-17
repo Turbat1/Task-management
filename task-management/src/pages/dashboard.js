@@ -1,11 +1,11 @@
-//Dashboard page for displaying tasks, projects, etc.
-const DashboardPage = () => {
-    return (
-      <div>
-        <h2>Dashboard</h2>
-        {/* Add components to display task summary, project summary, etc. */}
-      </div>
-    );
-  };
-  export default DashboardPage;
-  
+const Dashboard = () => {
+  return (
+    <div>
+      <h1>Dashboard</h1>
+      <p>Welcome to your dashboard!</p>
+      {/* Dashboard content can be added here */}
+    </div>
+  );
+};
+
+export default Dashboard;

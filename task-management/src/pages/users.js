@@ -1,11 +1,10 @@
-//Page for managing users.
-const UsersPage = () => {
-    return (
-      <div>
-        <h2>Users</h2>
-        {/* Add components for managing users */}
-      </div>
-    );
-  };
-  export default UsersPage;
-  
+const Users = () => {
+  return (
+    <div>
+      <h1>Users</h1>
+      {/* User management features can be added here */}
+    </div>
+  );
+};
+
+export default Users;

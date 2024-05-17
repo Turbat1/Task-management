@@ -1,11 +1,10 @@
-//Page for managing projects
-const ProjectsPage = () => {
-    return (
-      <div>
-        <h2>Projects</h2>
-        {/* Add components for managing projects */}
-      </div>
-    );
-  };
-  export default ProjectsPage;
-  
+const Projects = () => {
+  return (
+    <div>
+      <h1>Projects</h1>
+      {/* Project management features can be added here */}
+    </div>
+  );
+};
+
+export default Projects;
