@@ -1,4 +1,6 @@
+// pages/projects/[projectId].js
 import { useRouter } from 'next/router';
+import Link from 'next/link';
 
 const ProjectDetailsPage = () => {
   const router = useRouter();
@@ -8,8 +10,11 @@ const ProjectDetailsPage = () => {
     <div>
       <h2>Project Details</h2>
       <p>Project ID: {projectId}</p>
-      {/* Add components to display details of the project */}
+      <Link href={`/projects/${projectId}/tasks`}>
+        <a>View Tasks for this Project</a>
+      </Link>
     </div>
   );
 };
+
 export default ProjectDetailsPage;

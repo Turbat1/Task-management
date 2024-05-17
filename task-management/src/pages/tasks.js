@@ -1,11 +1,10 @@
-//Page for managing tasks.
-const TasksPage = () => {
-    return (
-      <div>
-        <h2>Tasks</h2>
-        {/* Add components for managing tasks */}
-      </div>
-    );
-  };
-  export default TasksPage;
-  
+const Tasks = () => {
+  return (
+    <div>
+      <h1>Tasks</h1>
+      {/* Task management features can be added here */}
+    </div>
+  );
+};
+
+export default Tasks;

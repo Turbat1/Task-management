@@ -1,11 +1,10 @@
-//Page for user login.
-const LoginPage = () => {
-    return (
-      <div>
-        <h2>Login</h2>
-        {/* Add login form component */}
-      </div>
-    );
-  };
-  export default LoginPage;
-  
+const Login = () => {
+  return (
+    <div>
+      <h1>Login</h1>
+      {/* Login form can be added here */}
+    </div>
+  );
+};
+
+export default Login;
